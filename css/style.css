@@ -1,0 +1,30 @@
+/*reset pagina*/
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+    /* iNICIO CABEÇALHO*/
+.primeiro-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background: rgb(228, 225, 225);
+    padding: 0 2.4rem;
+    height: 2.5rem;
+}
+#jordan{
+    margin-right: 30px;
+}
+.segundo-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background: rgb(228, 225, 225);
+    padding: 0 2.4rem;
+    height: 4.8rem;
+    
+}
+
