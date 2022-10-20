@@ -15,16 +15,47 @@
     padding: 0 2.4rem;
     height: 2.5rem;
 }
-#jordan{
-    margin-right: 30px;
+#jordan img{
+    margin-right: 20px;
+    width: 30px;
+}
+#SNKRS{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img-logo-nike img{
+    width: 80px;
 }
 .segundo-nav{
     display:flex;
     justify-content: space-between;
     align-items:center;
-    background: rgb(228, 225, 225);
+    background: white;
     padding: 0 2.4rem;
     height: 4.8rem;
-    
+}
+.primeiro-menu a{
+    color:rgb(32, 32, 32);
+    margin-right: 20px; 
+}
+.segundo-menu a{
+    color:black;
+    margin-right: 30px; 
+    font-weight: bold;
+    font-size: 17px;
+}
+.representante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(228, 225, 225);
+    font-weight: bold;
+    height: 3.5rem; 
+}
+.representante img{
+    width: 35px;
+}
+.img-primeiro-folder{
+    display: flex;
+    justify-content: center;
 }
 
