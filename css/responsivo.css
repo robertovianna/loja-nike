@@ -1,0 +1,311 @@
+@media screen and (max-width:1005px){
+.primeiro-nav{
+     display: none;
+}
+.segundo-menu a{
+    display: none;
+}
+.representante{
+    padding-top: 80px;
+} 
+.img-logo-nike img{
+    width: 50px;
+    margin: 0;
+    border: 1px solid red;
+}   
+
+.pesquisa-btn{
+    padding-right: 40px;
+    padding-left: 10px;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.pesquisa-btn img{
+    border: 1px solid red;
+    display: inline;
+}
+.menu-btn img{
+    width: 20px;
+    margin-left: 20px;
+    display: inline;
+    border: 1px solid red;
+}
+.carrinho-btn img{
+    display: inline;
+    width: 20px;
+    border: 1px solid red;
+}
+.lookbook-responsivo{
+    display: block;
+
+}
+.lookbook{
+    display: none;
+}
+.headline h1{
+    margin-left: 10%;
+    font-size: 70px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 80%;
+
+}
+.headline h2{
+    text-align: start;
+    max-width: 80%;
+    margin-left: 10%;
+    
+}
+.headline h3{
+    font-size: 30px;
+    margin-left: 3%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+   
+    
+}
+.saiba-mais{
+    display: inline-block;
+    margin-left: 10%;
+    max-width: 200px;
+	padding:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+	color:white;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius: 35px;
+	margin-top: 25px;
+}
+.membership h2{
+    text-align: start;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    
+}
+.membership h3{
+    font-size: 30px;
+    margin-left: 3%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.junte-se-a-nos{
+    display: inline-block;
+    margin-left: 10%;
+	padding:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+	color:white;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius: 25px;
+	margin-top: 25px; 
+}
+.conheca-tbm-cards{
+    display:inline-block;
+    width: 100%;
+
+}
+.card-01{
+    display:none;
+    background-image: url("../img/conheca-tbm01.jpg") ;
+	background-size: cover;
+    margin-left: 3%;
+    height: 450px;
+    width: 23.3%;   
+}
+.card-02{
+    display:none;
+    background-image: url("../img/conheca-tbm02.jpg") ;
+	background-size: cover;
+    height: 450px;
+    width: 23.3%;
+}
+.card-03{
+    display:none;
+    background-image: url("../img/conheca-tbm03.jpg") ;
+	background-size: cover;
+    height: 450px;
+    width: 23.3%;
+}
+.card-04{
+    display:inline-block;
+    background-image: url("../img/conheca-tbm04.jpg") ;
+	background-size: cover;
+    height: 1300px;;
+    width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.saiba-mais-btn{
+    display: none;
+    margin-left: 7%;
+	padding:30px;
+    padding-left: 58px;
+    padding-right: 58px;
+    background-color:white;
+	color:black;
+	text-decoration:none;
+	border-radius: 45px;
+	margin-top:121%;
+    font-size: 30px;
+}
+.nao-perca{
+    display: none;
+    margin-left: 8%;
+    font-size: 20px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.nao-perca-cards{
+    display:none;
+}
+.n-p-card-text{
+    display:none;
+}
+.mais-vendidos{
+    display: none;
+
+
+}
+.primeiro-footer{
+    display: block;
+    background-color: rgb(17, 16, 16);
+    width: 100%;
+    margin-top: 100px;
+}
+.card-footer-01{
+    display:block;
+    height: 150px;
+    margin-left:5%;
+    padding-top: 30px;
+    cursor:pointer;
+    width: 100%;
+}
+.card-footer-02{
+    display: block;
+    height: 30px;
+    margin-left:5%;
+    margin-top: 40px;
+    cursor:pointer;
+    width: 100%;
+}
+.card-footer-03{
+    display: block;
+    height: 30px;
+    margin-left:5%;
+    margin-top: 40px;
+    cursor:pointer;
+    width: 100%;
+}
+.card-footer-04{
+    display: block;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 40px;
+    cursor:pointer;
+    width: 100%;
+}
+.primeiro-footer p{
+    display: none;
+    color: rgb(201, 192, 192);
+    font-size: 15px;
+    margin-top: 10px;
+}
+.card-footer-04 img{
+    padding: 8px;
+    cursor:pointer;
+} 
+.segundo-footer{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(17, 16, 16);
+    width: 100%;
+    height: 150px;
+
+}
+.segundo-footer h4{
+    flex-wrap: wrap;
+    color:rgb(201, 192, 192);
+    width: 100%;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.brasil{
+    display: inline-block;
+    width: 80px;
+    cursor:pointer;
+    max-height: 30px;
+}
+hr{
+    border:0;
+    border-top: 1px solid rgb(201, 192, 192);
+    width: 90%;
+}
+.primeiro-hr{
+    display: block;
+    border:0;
+    border-top: 1px solid rgb(104, 103, 103);
+    width: 90%;
+   
+}
+.segundo-hr{
+    display: block;
+    border:0;
+    border-top: 1px solid rgb(201, 192, 192);
+    width: 90%;
+    
+}
+.terceiro-hr{
+    display: block;
+    border:0;
+    border-top: 2px solid rgb(201, 192, 192);
+    width: 90%;
+}
+.quarto-hr{
+    display: block;
+    border:0;
+    border-top: 1px solid rgb(201, 192, 192);
+    width: 90%;
+}
+.termo{
+    display: inline-block;
+    width: 120px;
+    cursor:pointer;
+    max-height: 30px;
+}
+.politica{
+    display: inline-block;
+    width: 180px;
+    cursor:pointer;
+    max-height: 30px;
+}
+.direitos{
+    display: block;
+    width: 94%;
+    margin-left:3%;
+    margin-right: 3%;
+    cursor:pointer;
+    text-align: center;
+}
+}
+@media screen and (max-width:768px){
+.card-04{
+    display:inline-block;
+    background-image: url("../img/conheca-tbm04.jpg") ;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+}
+
+   
