@@ -1,45 +1,26 @@
 @media screen and (max-width:1005px){
 .primeiro-nav{
-     display: none;
-}
-.segundo-menu a{
     display: none;
 }
-.representante{
-    padding-top: 80px;
-} 
-.img-logo-nike img{
-    width: 50px;
-    margin: 0;
-    border: 1px solid red;
-}   
-
-.pesquisa-btn{
-    padding-right: 40px;
-    padding-left: 10px;
-    border: 1px solid red;
+.segundo-nav{
     display: flex;
-    flex-wrap: wrap;
-    
+    justify-content: space-around;
 }
-.pesquisa-btn img{
-    border: 1px solid red;
-    display: inline;
+.segundo-menu a{
+    display: none; 
+}
+.representante{
+    padding-top: 100px;
 }
 .menu-btn img{
-    width: 20px;
-    margin-left: 20px;
-    display: inline;
-    border: 1px solid red;
+    display: inline-block;
+    margin-left: 10px;
 }
 .carrinho-btn img{
-    display: inline;
-    width: 20px;
-    border: 1px solid red;
+    display: inline-block;
 }
 .lookbook-responsivo{
-    display: block;
-
+    display: inline-block;
 }
 .lookbook{
     display: none;
@@ -50,21 +31,17 @@
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     max-width: 80%;
-
 }
 .headline h2{
     text-align: start;
     max-width: 80%;
-    margin-left: 10%;
-    
+    margin-left: 10%;   
 }
 .headline h3{
     font-size: 30px;
     margin-left: 3%;
     margin-top: 50px;
-    margin-bottom: 30px;
-   
-    
+    margin-bottom: 30px;  
 }
 .saiba-mais{
     display: inline-block;
@@ -84,8 +61,7 @@
     text-align: start;
     max-width: 80%;
     margin-left: 10%;
-    margin-top: 30px;
-    
+    margin-top: 30px; 
 }
 .membership h3{
     font-size: 30px;
@@ -109,36 +85,22 @@
 .conheca-tbm-cards{
     display:inline-block;
     width: 100%;
-
 }
 .card-01{
     display:none;
-    background-image: url("../img/conheca-tbm01.jpg") ;
-	background-size: cover;
-    margin-left: 3%;
-    height: 450px;
-    width: 23.3%;   
 }
 .card-02{
     display:none;
-    background-image: url("../img/conheca-tbm02.jpg") ;
-	background-size: cover;
-    height: 450px;
-    width: 23.3%;
 }
 .card-03{
     display:none;
-    background-image: url("../img/conheca-tbm03.jpg") ;
-	background-size: cover;
-    height: 450px;
-    width: 23.3%;
 }
 .card-04{
     display:inline-block;
     background-image: url("../img/conheca-tbm04.jpg") ;
 	background-size: cover;
     height: 1300px;;
-    width: 100%;
+    width: 94%;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -155,13 +117,8 @@
 	margin-top:121%;
     font-size: 30px;
 }
-.nao-perca{
+.maisvendidos-naoperca{
     display: none;
-    margin-left: 8%;
-    font-size: 20px;
-    margin-top: 200px;
-    margin-bottom: 30px;
-    font-weight: bold;
 }
 .nao-perca-cards{
     display:none;
@@ -171,8 +128,6 @@
 }
 .mais-vendidos{
     display: none;
-
-
 }
 .primeiro-footer{
     display: block;
@@ -228,7 +183,6 @@
     background-color: rgb(17, 16, 16);
     width: 100%;
     height: 150px;
-
 }
 .segundo-footer h4{
     flex-wrap: wrap;
@@ -252,15 +206,13 @@ hr{
     display: block;
     border:0;
     border-top: 1px solid rgb(104, 103, 103);
-    width: 90%;
-   
+    width: 90%; 
 }
 .segundo-hr{
     display: block;
     border:0;
     border-top: 1px solid rgb(201, 192, 192);
-    width: 90%;
-    
+    width: 90%;   
 }
 .terceiro-hr{
     display: block;

@@ -9,8 +9,7 @@
     /* iNICIO CABEÇALHO*/
 header{
     width: 100%;
-    position: fixed;
-    
+    position: fixed;  
 }
 .primeiro-nav{
     display:flex;
@@ -54,12 +53,10 @@ header{
 } 
 .carrinho-btn img{
     width: 18px;
-
 }
 .menu-btn img{
     width: 18px;
     display: none;
-
 }
 .segundo-menu a{
     color:black;
@@ -67,6 +64,7 @@ header{
     font-weight: bold;
     font-size: 17px;
 }
+ /* iNICIO DO CORPO*/
 .representante{
     display: flex;
     justify-content: center;
@@ -78,14 +76,7 @@ header{
 .representante img{
     width: 35px;
 }
-.img-folder img{
-    display: flex;
-    width: 94%;
-    margin-left: 3%;
-    margin-right: 3%;  
-    margin-top: 20px;
-}
-.lookbook{
+.img-folder img, .lookbook{
     display: flex;
     width: 94%;
     margin-left: 3%;
@@ -111,14 +102,12 @@ header{
     text-align: center;
     max-width: 50%;
     margin-left: 25%;
-    
 }
 .headline h3{
     font-size: 30px;
     margin-left: 3%;
     margin-top: 50px;
     margin-bottom: 30px;
-    
 }
 .saiba-mais{
     display: inline-block;
@@ -139,7 +128,6 @@ header{
     max-width: 50%;
     margin-left: 25%;
     margin-top: 30px;
-    
 }
 .membership h3{
     font-size: 30px;
@@ -162,41 +150,29 @@ header{
 }
 .conheca-tbm-cards{
     display:inline-block;
-    width: 100%;
-    cursor:pointer;
-
+    width: 97%;
+}
+.card{
+    display:inline-block;
+    background-size: cover;
+    height: 450px;
+    width: 23.9%; 
 }
 .card-01{
-    display:inline-block;
     background-image: url("../img/conheca-tbm01.jpg") ;
-	background-size: cover;
-    margin-left: 3%;
-    height: 450px;
-    width: 23.3%;   
+    margin-left: 3%;   
 }
 .card-02{
-    display:inline-block;
     background-image: url("../img/conheca-tbm02.jpg") ;
-	background-size: cover;
-    height: 450px;
-    width: 23.3%;
 }
 .card-03{
-    display:inline-block;
     background-image: url("../img/conheca-tbm03.jpg") ;
-	background-size: cover;
-    height: 450px;
-    width: 23.3%;
 }
 .card-04{
-    display:inline-block;
     background-image: url("../img/conheca-tbm04.jpg") ;
-	background-size: cover;
-    height: 450px;
-    width: 23.3%;
 }
 .saiba-mais-btn{
-    display: none;
+    display: inline-block;
     margin-left: 6%;
 	padding:10px;
     padding-left: 15px;
@@ -208,103 +184,41 @@ header{
 	margin-top:125%;
     font-size: 17px;
 }
-.nao-perca{
-    margin-left: 8%;
-    font-size: 20px;
-    margin-top: 200px;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-.nao-perca-cards{
-    display:inline-block;
-    width: 100%;
-}
 .n-p-card-text{
     display:inline-block;
     width: 100%;
 }
-.n-p-card-text01{
+.card-text{
     display:inline-block;
     width: 20%;
+    margin-left:1%;
+    cursor:pointer;
+}
+.n-p-card-text01, .n-p-card-text05{
     margin-left:8%;
-    cursor:pointer;
 }
-.n-p-card-text02{
+.n-card{
     display:inline-block;
-    width: 20%;
-    margin-left:1%;
-    cursor:pointer;
-}.n-p-card-text03{
-    display:inline-block;
-    width: 20%;
-    margin-left:1%;
-    cursor:pointer;
-}.n-p-card-text04{
-    display:inline-block;
-    width: 20%;
-    margin-left:1%;
-    cursor:pointer;
-}
-.n-p-card-text05{
-    display:inline-block;
-    width: 20%;
-    margin-left:8%;
-    cursor:pointer;
-}
-.n-p-card-text06{
-    display:inline-block;
-    width: 20%;
-    margin-left:1%;
-    cursor:pointer;
-}.n-p-card-text07{
-    display:inline-block;
-    width: 20%;
-    margin-left:1%;
-    cursor:pointer;
-}.n-p-card-text08{
-    display:inline-block;
-    width: 20%;
-    margin-left:1%;
-    cursor:pointer;
-}
-
-.n-p-card-01{
-    display:inline-block;
-    background-image: url("../img/n-perca01.png") ;
-	background-size: cover;
+    background-size: cover;
     height: 300px;
     width: 20%;
-    margin-left:8%;
+    margin-left:1%;
     cursor:pointer;
+}
+.n-p-card-01{
+    background-image: url("../img/n-perca01.png") ;
+    margin-left:8%;
 }
 .n-p-card-02{
-    display:inline-block;
     background-image: url("../img/n-perca02.png") ;
-	background-size: cover;
-    height: 300px;
-    width: 20%;
-    margin-left:1%;
-    cursor:pointer;
 }
 .n-p-card-03{
-    display:inline-block;
     background-image: url("../img/n-perca02.png") ;
-	background-size: cover;
-    height: 300px;
-    width: 20%;
-    margin-left:1%;
-    cursor:pointer;
 }
 .n-p-card-04{
-    display:inline-block;
     background-image: url("../img/n-perca03.png") ;
-	background-size: cover;
-    height: 300px;
-    width: 20%;
-    margin-left:1%;
-    cursor:pointer;
 }
-.mais-vendidos{
+.maisvendidos-naoperca{
     margin-left: 8%;
     font-size: 20px;
     margin-top: 80px;
@@ -312,41 +226,17 @@ header{
     font-weight: bold;
 }
 .n-p-card-05{
-    display:inline-block;
     background-image: url("../img/mais-vendidos01.png") ;
-	background-size: cover;
-    height: 300px;
-    width: 20%;
     margin-left:8%;
-    cursor:pointer;
 }
 .n-p-card-06{
-    display:inline-block;
     background-image: url("../img/mais-vendidos02.png") ;
-	background-size: cover;
-    height: 300px;
-    width: 20%;
-    margin-left:1%;
-    cursor:pointer;
 }
 .n-p-card-07{
-    display:inline-block;
     background-image: url("../img/mais-vendidos03.png") ;
-	background-size: cover;
-    height: 300px;
-    width: 20%;
-    margin-left:1%;
-    cursor:pointer;
 }
 .n-p-card-08{
-    display:inline-block;
     background-image: url("../img/mais-vendidos04.png") ;
-	background-size: cover;
-    height: 300px;
-    width: 20%;
-    margin-left:1%;
-    cursor:pointer;
-  
 }
 .n-p-card-08:hover .comprar-btn{
     display:block;
@@ -386,9 +276,9 @@ header{
     font-size: 17px;
 }
 .comprar-btn{
-    display: none;
-   
+    display: none;  
 }
+ /* iNICIO DO FOOTER*/
 .primeiro-footer{
     display: flex;
     background-color: rgb(17, 16, 16);
@@ -472,13 +362,11 @@ header{
     border:0;
     border-top: 1px solid rgb(201, 192, 192);
 }
-
 .segundo-footer{
     display: flex;
     background-color: rgb(17, 16, 16);
     width: 100%;
     height: 120px;
-
 }
 .segundo-footer h4{
     color:rgb(201, 192, 192);
@@ -493,14 +381,7 @@ header{
     margin-top: 10px;
     cursor:pointer;
 }
-.termo{
-    display: inline-block;
-    width: 8%;
-    margin-left:3%;
-    margin-top: 10px;
-    cursor:pointer;
-}
-.politica{
+.termo, .politica{
     display: inline-block;
     width: 8%;
     margin-left:3%;
